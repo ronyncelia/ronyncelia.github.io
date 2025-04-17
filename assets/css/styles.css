@@ -1,0 +1,56 @@
+/* Global Styles */
+:root {
+    --primary: #ffc0cb;
+    --secondary: #824a54;
+    --accent: #009696;
+    --desktop-width: 1200px;
+    --tablet-width: 960px;
+}
+
+body {
+    margin: 0;
+    font-family: "Shadows Into Light", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+}
+a {
+    color: var(--secondary);
+    text-decoration: none;
+}
+
+/* Header */
+header {
+    background-color:var(--primary);
+}
+header ul {
+    padding: 0;
+    margin: 0 auto;
+    text-align:right;
+    width: var(--desktop-width);
+}
+header ul li {
+    list-style-type: none;
+    display: inline-block;
+    margin: 10px;
+}
+
+/* Main Section */
+section.main {
+    width: var(--desktop-width);
+    margin: 100px auto;
+    min-height: 50vh;
+    color: var(--accent);
+}
+
+/* Footer */
+footer {
+    background-color: var(--primary);
+    padding: 20px;
+}
+footer p {
+    width: var(--desktop-width);
+    margin: 0 auto;
+    text-align: center;
+    color: var(--secondary);
+}
